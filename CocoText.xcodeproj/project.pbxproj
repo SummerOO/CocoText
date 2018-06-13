@@ -14,6 +14,7 @@
 		3B663C1920D0FC1A006EB309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B663C1720D0FC1A006EB309 /* LaunchScreen.storyboard */; };
 		3B663C1C20D0FC1A006EB309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B663C1B20D0FC1A006EB309 /* main.m */; };
 		3B663C2620D0FC1A006EB309 /* CocoTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B663C2520D0FC1A006EB309 /* CocoTextUITests.m */; };
+		3B663C3220D0FC41006EB309 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B663C3120D0FC41006EB309 /* Text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3B663C2120D0FC1A006EB309 /* CocoTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B663C2520D0FC1A006EB309 /* CocoTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoTextUITests.m; sourceTree = "<group>"; };
 		3B663C2720D0FC1A006EB309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B663C3020D0FC41006EB309 /* Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		3B663C3120D0FC41006EB309 /* Text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				3B663C1720D0FC1A006EB309 /* LaunchScreen.storyboard */,
 				3B663C1A20D0FC1A006EB309 /* Info.plist */,
 				3B663C1B20D0FC1A006EB309 /* main.m */,
+				3B663C3020D0FC41006EB309 /* Text.h */,
+				3B663C3120D0FC41006EB309 /* Text.m */,
 			);
 			path = CocoText;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			files = (
 				3B663C1120D0FC16006EB309 /* ViewController.m in Sources */,
 				3B663C1C20D0FC1A006EB309 /* main.m in Sources */,
+				3B663C3220D0FC41006EB309 /* Text.m in Sources */,
 				3B663C0E20D0FC16006EB309 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
